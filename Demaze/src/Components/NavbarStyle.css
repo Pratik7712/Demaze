@@ -1,0 +1,44 @@
+.NavbarItems{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    height: 6rem;
+    border-radius: 20px;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+}
+
+
+.Menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 2.5rem;
+    list-style: none;
+    align-items:end;
+    font-weight: 800;
+    font-size:large;
+    cursor: pointer;
+    align-items: center;
+    font-size: x-large;
+    width: 100%;
+    color:black ;
+}
+
+.button{
+    color: #fff;
+    background-color: RGB(37, 99, 235);
+    margin: 0 35px 0 0;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    white-space:nowrap;
+}
+
+.button:hover{
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
