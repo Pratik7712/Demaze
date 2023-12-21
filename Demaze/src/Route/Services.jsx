@@ -1,9 +1,9 @@
-import Solution from "../Components/Solution"
-
+import ServiceData from "../Components/ServiceData"
 function Services() {
+
   return (
     <div>
-      <Solution/>   
+      <ServiceData/>
     </div>
   )
 }

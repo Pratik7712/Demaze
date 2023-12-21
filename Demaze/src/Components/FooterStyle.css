@@ -1,0 +1,49 @@
+.footer {
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top img {
+    width: 250px; 
+  }
+  
+  .top a {
+    margin-right: 10px;
+    color: black;
+    font-size: xx-large;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .listitem {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .listitem h3 {
+    color: black;
+  }
+  
+  .listitem a {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  .listitem i {
+    margin-right: 5px;
+  }
+  

@@ -1,5 +1,6 @@
 import "./NavbarStyle.css"
 import logo from "../assets/demazeLogo.jpg"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Navbar() {
     return (
@@ -7,8 +8,12 @@ function Navbar() {
 
             <ul className="Menu">
                 <img src={logo} alt="logo" />
-                <li>Services</li>
-                <li>About Us</li>
+                <li>
+                    <AnchorLink href="#service">Services</AnchorLink>
+                </li>
+                <li>
+                    <AnchorLink href="#About">About Us</AnchorLink>
+                </li>
             </ul>
             <button className="button">Contact Us</button>  
         </nav>
