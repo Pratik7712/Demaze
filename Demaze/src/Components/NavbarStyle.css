@@ -49,12 +49,32 @@
     }
 
     .Menu {
-        grid-gap: 0.5rem;
+        grid-gap:1fr;
         font-size: small; 
+        display: flex;
     }
 
     .button {
         margin: 0 10px 0 0;
         padding: .5rem .8rem; 
     }
+}
+
+@media only screen and (max-width: 760px) {
+    .NavbarItems {
+        padding: 0 15px; 
+        border-radius: 0; 
+    }
+
+    .Menu {
+        grid-gap: 1fr;
+        font-size: medium; 
+        text-align: left; 
+        display:flex;
+    }
+
+    .button {
+        display: none;
+    }
+
 }

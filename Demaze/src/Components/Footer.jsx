@@ -43,11 +43,13 @@ const Footer = () => {
                     <a href="/">Mobile App Development</a>
                     <a href="/">Website Development</a>
                     <a href="/">Game Development</a>
+                    <a href="/">AI Development</a>
                 </div>
                 <div className="listitem">
                     <h3>Contact Us</h3>
                     <a href="/">
-                        <i className="fa-solid fa-location-dot"></i>D-814,Ganesh Glory11,Jagatpur Road,S.G.Highway,Gota,Ahmedabad,Gujarat,382470
+                        <i className="fa-solid fa-location-dot"></i>D-814,Ganesh Glory11,Jagatpur Road,S.G.Highway,Gota,
+                        Ahmedabad,Gujarat,382470
                     </a>
                     <a href="/">
                         <i className="fa-solid fa-phone"></i>(+91) 7016660537
