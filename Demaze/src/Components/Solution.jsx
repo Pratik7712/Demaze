@@ -18,6 +18,7 @@ function Solution() {
         <div className="solution">
             <h1>Solution</h1>
             <p>We Provide To Transform Industries Digitally</p>
+        <div>
             <div className="SolutionCard">
                 <SolutionData
                     Image={EC}
@@ -25,7 +26,7 @@ function Solution() {
                 />
                 <SolutionData
                     Image={FBI}
-                    Text="Finance, Banking and Insurance"
+                    Text="Finance,Banking"
                 />
                 <SolutionData
                     Image={manu}
@@ -33,7 +34,7 @@ function Solution() {
                 />
                 <SolutionData
                     Image={wh}
-                    Text="Wellness and Health"
+                    Text="Health"
                 />
             </div>
 
@@ -48,11 +49,11 @@ function Solution() {
                 />
                 <SolutionData
                     Image={th}
-                    Text="Travel & Hospitality"
+                    Text="Travel "
                 />
                 <SolutionData
                     Image={smc}
-                    Text="Social media & Communication"
+                    Text="Social media"
                 />
             </div>
 
@@ -63,7 +64,7 @@ function Solution() {
                 />
                 <SolutionData
                     Image={food}
-                    Text="Food & Beverages"
+                    Text="Food"
                 />
                 <SolutionData
                     Image={SMC}
@@ -74,8 +75,8 @@ function Solution() {
                     Text="Sports"
                 />
             </div>
-
         </div>
+    </div>
     )
 }
 

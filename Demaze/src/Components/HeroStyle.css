@@ -50,3 +50,22 @@
 .hero-text button {
     color: #fff
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-text {
+        width: 70%; 
+        padding: 20px; 
+    }
+    .hero-text h2 {
+        font-size: 2.5rem; 
+    }
+
+    .hero-text p {
+        font-size: 1.1rem; 
+    }
+
+    .hero-text .show {
+        padding: 0.8rem 1.5rem; 
+        font-size: 1rem; /
+    }
+}

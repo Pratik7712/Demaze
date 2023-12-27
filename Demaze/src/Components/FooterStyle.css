@@ -46,4 +46,18 @@
   .listitem i {
     margin-right: 5px;
   }
-  
+
+  @media (max-width: 768px) {
+    .top {
+        text-align: center;
+    }
+
+    .list {
+        flex-direction: row;
+        align-items:flex-start;
+    }
+
+    .listitem {
+        max-width: 100%; 
+    }
+}

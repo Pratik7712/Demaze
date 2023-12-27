@@ -14,7 +14,6 @@
     z-index: 99;
 }
 
-
 .Menu{
     display: grid;
     grid-template-columns: repeat(6,auto);
@@ -42,4 +41,20 @@
 .button:hover{
     background-color: black;
     transition: 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .NavbarItems {
+        padding: 0 15px; 
+    }
+
+    .Menu {
+        grid-gap: 0.5rem;
+        font-size: small; 
+    }
+
+    .button {
+        margin: 0 10px 0 0;
+        padding: .5rem .8rem; 
+    }
 }

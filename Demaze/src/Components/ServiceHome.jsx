@@ -14,7 +14,7 @@ function ServiceHome() {
             <p>We Provide For Your Brand</p>
             <div className="servicecard">
                 <ServiceData
-                    icon="fa-regular fa-file-code"
+                    icon="fa-solid fa-bicycle"   
                     heading="Web Development" 
                     text="We provide end-to-end web app development services designed exclusively to solve your unique business challenges. At Demaze Technologies, we offer custom web apps, portals, e-commerce and SaaS development."               
                 />
